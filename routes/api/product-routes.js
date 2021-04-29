@@ -15,7 +15,7 @@ router.get('/', async (req, res) => {
         },
         {
           model: Tag,
-          as: "product_tag"
+          as: "product_tags"
         }
       ]
     });
@@ -37,7 +37,7 @@ router.get('/:id', async (req, res) => {
         },
         {
           model: Tag,
-          as: "product_tag"
+          as: "product_tags"
         }
       ]
     });
